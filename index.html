@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <IMG SRC="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif">
+<div style="background-color: red; width: 50px; height: 50px;" onclick="xSignDisplayLetter()" id="one"></div>
+<br />
+<div style="background-color: red; width: 50px; height: 50px;" onclick="xSignDisplayLetterVerTwo()" id="two"></div>
+<br />
+<div style="background-color: red; width: 50px; height: 50px;" onclick="revealImg()" id="image"></div>
+<script>
+function revealImg() {
+    document.getElementById("image").innerHTML = "<img src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png' alt='Image' style='width: 50px; height: 50px;' />"
+}
+function xSignDisplayLetter() {
+    document.getElementById("one").innerHTML = "<img src='https://image.freepik.com/free-icon/x-symbol_318-1407.jpg' alt='Image' style='width: 50px; height: 50px;' />"
+}
+function xSignDisplayLetterVerTwo() {
+    document.getElementById("two").innerHTML = "<img src='https://d3qdvvkm3r2z1i.cloudfront.net/media/catalog/product/cache/1/image/1800x/6b9ffbf72458f4fd2d3cb995d92e8889/n/o/nope_newthumb.png' alt='Image' style='width: 50px; height: 50px;' />"
+    }
+</script>
 </body>
 </html>
+<!DOCTYPE html>
